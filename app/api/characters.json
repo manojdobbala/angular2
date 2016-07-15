@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": 11,
+      "name": "Chewbacca",
+      "side": "light"
+    },
+    {
+      "id": 12,
+      "name": "Rey",
+      "side": "light"
+    }
+  ]
+}
