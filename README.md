@@ -72,3 +72,7 @@ That command first compiles, then simultaneously starts the Http-Server at `loca
 and launches protractor.  
 
 Shut it down manually with Ctrl-C.
+
+
+
+alias npm-exec='PATH=$(npm bin):$PATH'

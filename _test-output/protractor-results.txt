@@ -1,0 +1,22 @@
+Protractor results for: 8/8/2016, 2:34:46 PM
+
+AppDir:./
+  Suite: this is a test suite -- passed
+    passed - should open a new window
+    passed - should open close the window
+
+  Suite: Should check for the application Headers -- passed
+    passed - should display: External Template
+    passed - should display: Storyline Tracker
+    passed - should display app header: Component Demo
+
+  Suite: Should verify the Story list -- passed
+    passed - should display the list of stories
+    passed - should validate the count
+    passed - should select first element from story list and display selected story
+
+  Suite: should verify carousel and its functionality -- passed
+    passed - should check if carousel exists in the page
+    passed - should click right and slide the carousel to right
+    passed - should click left and slide the carousel to left
+

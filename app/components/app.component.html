@@ -5,3 +5,25 @@
     <h3>Component Demo</h3>
     <story-characters [storyId]="7" (changed)=changed($event)></story-characters>
 </div>
+
+<div class="row">
+    <div class="col-md-12">
+        <carousel [interval]="NextPhotoInterval" [noWrap]="noLoopSlides">
+            <slide *ngFor="let slidez of slides; let index=index"
+                   [active]="slidez.active">
+                <img [src]="slidez.image" style="margin:auto;">
+
+                <div class="carousel-caption">
+                    <h3 style="background-color: transparent;color: white;">Slide {{index + 1}}</h3>
+                    <p  style="background-color: transparent;color: white;">{{slidez.text}}</p>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+
+    <div class="col-md-12">
+        <button type="button" class="btn btn-info"
+                (click)="removeLastSlide()">Remove Last Slide
+        </button>
+    </div>
+</div>
